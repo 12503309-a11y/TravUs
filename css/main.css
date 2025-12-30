@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+/* reset */
+* {margin: 0;padding: 0; box-sizing: border-box;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+h1, h2, h3, h4, h5, h6 {font-weight: 700; font-size: inherit;}
+a {color: inherit; text-decoration: inherit;}
+img {vertical-align: middle;}
+a img {border: none;}
+li {list-style: none;}
+address, em, i {font-style: normal;}
+a:focus {outline: none}
+button:focus {outline: none}
+
+.wrap {width: 393px; overflow: hidden; margin: 0 auto; background: #F8F8F8;}
+
+/* header */
+.header .inner-header {background:#F67C1F; padding: 54px 28px 0 28px;}
+.header .inner-header .icon-box {display: flex; justify-content: space-between;align-items: center; position: relative;}
+.header .inner-header .icon-box .logo {display: flex; text-align: center; font-weight: 800; font-size: 24px; color: white; position: absolute; left: 125px; top: -5px;}
+.header .inner-header .icon-box .right-box {width: 62px; display: flex; justify-content: space-between; align-items: center;}
+.header .inner-header .icon-box .right-box .bell {position: absolute; top: 0; right: 0;}
+.header .inner-header .icon-box .right-box .bell img {width: 22px; }
+
+
+/* hero */
+.hero {background: #F67C1F; width: 100%; height: 559px; padding: 47px 28px 0 28px; margin-bottom: 91px;  position: relative;}
+.hero h1 {font-size: 36px; color: white;}
+.hero .img-box {width: 233px; height: 403px; display: flex; position: absolute; left: 77px; bottom: 0;}
+.hero .img-box img {width: 100%; height: 100%;}
+
+/* card-today-travel */
+.card-today-travel {width: 100%; height: 276px; padding: 28px; display: flex; justify-content: space-between; background: white; border-radius: 20px; margin-bottom: 80px;}
+.card-today-travel .img-box {width: 158px; height: 224px; background-image: url(../img/bangcok_main.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;}
+.card-today-travel .txt-box {margin-top: 16px;  position: relative;color: #555555;}
+.card-today-travel .txt-box .card-tit {font-size: 22px; margin-bottom: 23px; font-weight: 500;}
+.card-today-travel .txt-box .country {margin-bottom: 19px; font-size: 28px; font-weight: 600; color: #111111;}
+.card-today-travel .txt-box p {margin-bottom: 54px; font-size: 14px;}
+.card-today-travel .view-detail {position: absolute; right: 0;}
+.card-today-travel .view-detail span {margin-left: 10px;}
+
+
+/* 공통요소 */
+h2 {font-size: 20px; font-weight: 600; margin-bottom: 16px;}
+section {margin-bottom: 80px; padding: 0px 28px 0 28px;}
+
+
+/* favorites */
+.favorites ul {display: flex; justify-content: space-between;}
+.favorites ul li .img-box {width: 77px; height: 77px;background: white; border-radius: 50%;  margin-bottom: 10px; display: flex; justify-content: center;  align-items: center;}
+.favorites ul li img {width: 60px; height: 60px;}
+.favorites ul li img.scale {width: 70px; height: 70px;}
+
+.favorites ul li p {font-size: 16px; font-weight: 500; text-align: center;}
+
+/* reservation */
+.reservation ul li {background: white; border-radius: 10px; margin-bottom: 16px; width: 342px; height: 80px;}
+.reservation ul li a {display: flex; align-items: center;}
+.reservation ul li a img {margin: 0 30px 0 14px; width: 100px; height: 80px;}
+.reservation ul li a .txt-box .tit-txt {font-size: 18px; font-weight: 600; margin-bottom: 3px;}
+.reservation ul li a .txt-box .sub-txt {font-size: 12px; color: #555555;}
+
+/* suggestion */
+.suggestion ul {display: flex; justify-content: space-between;}
+.suggestion ul li {width: 304px; margin-right: 10px; background: white; padding: 0 0 28px 0; border-radius: 10px;}
+.suggestion ul li a .img-box1 {width: 304px; height: 172px; background-image: url(../img/octoverfastival.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; margin-bottom: 20px; border-radius: 10px 10px 0 0;}
+.suggestion ul li a .img-box2 {width: 304px; height: 172px; background-image: url(../img/chiangmai.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; margin-bottom: 20px;  border-radius: 10px 10px 0 0;}
+.suggestion ul li a .txt-box {padding-left: 14px;}
+.suggestion ul li a .tit {font-size: 18px; font-weight: 600; margin-bottom: 6px;}
+.suggestion ul li a .txt {font-size: 14px; color: #555555;}
+
+/* popular-community */
+.popular-community {padding: 0;}
+.popular-community ul {display: flex;}
+.popular-community ul li {background: white; padding: 28px 20px 28px 20px; border-radius: 10px; margin-right: 10px;}
+.popular-community ul li .user-informaion {display: flex; justify-content: space-between;}
+.popular-community ul li .user-informaion .member {margin-bottom: 10px;}
+.popular-community ul li .user-informaion .member .circle-img1 {width: 62px; height: 62px; background: url(../img/ive-wunyong.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; border-radius: 50%;}
+.popular-community ul li .user-informaion .member .circle-img2 {width: 62px; height: 62px; background: url(../img/sohee.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; border-radius: 50%;}
+.popular-community ul li .user-informaion .member .name {font-size: 14px; font-weight: 600;} 
+.popular-community ul li .user-informaion .follow-btn {font-size: 12px;}
+.popular-community ul li .img-box1 {width: 354px; height: 196px; display: flex; align-items: center; background: url(../img/hongkong.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; padding-right: 10px; border-radius: 10px; margin-bottom: 10px;}
+.popular-community ul li .img-box2 {width: 354px; height: 196px; display: flex; align-items: center;background: url(../img/keongju-princess.webp); background-size: cover; background-position: center; background-repeat: no-repeat; padding-right: 10px; border-radius: 10px; margin-bottom: 10px;}  
+.popular-community ul li p {color: #555555; font-size: 14px;}
+
+
+
+
+
+
+
+
+
+
