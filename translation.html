@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>번역</title>
+    <link rel="stylesheet" href="../css/translation.css">
+    <script src="../js/translation.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div class="wrap">
+        <!-- header -->
+        <header>
+            <div class="inner-header">
+                <div class="icon-box">
+                    <button><img src="../img/back-icon.svg" alt=""></button>
+                    <p class="title">번역</p>
+                </div>
+                
+            </div>
+        </header>
+
+        
+        <!-- Select country -->
+        <section class="select-country">
+            <div class="select-box">
+                <div class="country1">
+                    <button><img src="../img/down-arrow.svg" alt=""></button>
+                    <p class="language">한국어</p>
+                </div>
+                <button class="change"><img src="../img/change.svg" alt=""></button>
+                <div class="country1">
+                    <p class="language">프랑스어</p>
+                    <button><img src="../img/down-arrow.svg" alt=""></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- translation-box -->
+        <section class="translation-box">
+            <div class="box one">
+                <button><img src="../img/no-sound.svg" alt=""></button>
+                <p>이 가게에서 가장 인기있는 메뉴는 무엇인가요?</p>
+            </div>
+            <div class="box two">
+                <button><img src="../img/sound.svg" alt=""></button>
+                <p>Quel est le plat le plus populaire du menu de ce restaurant?</p>
+            </div>
+        </section>
+
+        <!-- often -->
+        <section class="often">
+            <p class="sub-tit">자주 쓰는 문장</p>
+
+            <div class="often-scroll">
+                <div class="sentence-box">
+                <p>메뉴판 주세요</p>
+                <p>이거 얼마인가요?</p>
+                <p>화장실은 어디에 있나요?</p>
+                <p>체크인 할게요</p>
+                <p>체크아웃 할게요</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <ul class="inner-footer">
+                <li class="camera tab">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="31" height="24" viewBox="0 0 31 24" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0364 0.436364C10.2424 0.161673 10.5657 0 10.9091 0H19.6364C19.9797 0 20.3031 0.161673 20.5091 0.436364L23.4545 4.36364H27.2727C28.1407 4.36364 28.9732 4.70845 29.587 5.3222C30.2007 5.93594 30.5455 6.76837 30.5455 7.63636V20.7273C30.5455 21.5952 30.2007 22.4278 29.587 23.0415C28.9732 23.6553 28.1407 24 27.2727 24H3.27273C2.40473 24 1.57231 23.6553 0.95856 23.0415C0.344804 22.4278 0 21.5952 0 20.7273V7.63636C0 6.76839 0.344804 5.93594 0.95856 5.3222C1.57231 4.70845 2.40473 4.36364 3.27273 4.36364H7.09091L10.0364 0.436364ZM20.6429 13.552C20.6429 16.5178 18.2386 18.922 15.2727 18.922C12.3069 18.922 9.90255 16.5178 9.90255 13.552C9.90255 10.5861 12.3069 8.18182 15.2727 8.18182C18.2386 8.18182 20.6429 10.5861 20.6429 13.552Z" fill="currentColor"/>
+                    </svg>
+                    <p>카메라</p>
+                </li>
+                <li class="txt tab is-active">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="26" viewBox="0 0 24 26" fill="none">
+                        <path d="M12 1V25M1 1H23" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p>텍스트</p>
+                </li>
+                <li class="mike tab">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="30" viewBox="0 0 24 30" fill="none">
+                        <path d="M12 0C8.11243 0 4.64516 2.71771 4.64516 6.42857V14.3407C4.64516 18.0515 8.11243 20.7692 12 20.7692C15.8876 20.7692 19.3548 18.0515 19.3548 14.3407V6.42857C19.3548 2.71771 15.8876 0 12 0Z" fill="currentColor"/>
+                        <path d="M2.32258 13.4615C2.32258 12.8243 1.80265 12.3077 1.16129 12.3077C0.519927 12.3077 0 12.8243 0 13.4615C0 19.6572 4.75617 24.7492 10.8387 25.3295V27.6923H5.80645C5.16509 27.6923 4.64516 28.2089 4.64516 28.8462C4.64516 29.4834 5.16509 30 5.80645 30H18.1935C18.8349 30 19.3548 29.4834 19.3548 28.8462C19.3548 28.2089 18.8349 27.6923 18.1935 27.6923H13.1613V25.3295C19.2438 24.7492 24 19.6572 24 13.4615C24 12.8243 23.4801 12.3077 22.8387 12.3077C22.1973 12.3077 21.6774 12.8243 21.6774 13.4615C21.6774 18.772 17.3447 23.0769 12 23.0769C6.6553 23.0769 2.32258 18.772 2.32258 13.4615Z" fill="currentColor"/>
+                    </svg>
+                    <p>음성입력</p>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    
+</body>
+</html>

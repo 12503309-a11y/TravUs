@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+/* reset */
+* {margin: 0;padding: 0; box-sizing: border-box;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+h1, h2, h3, h4, h5, h6 {font-weight: 700; font-size: inherit;}
+a {color: inherit; text-decoration: inherit;}
+img {vertical-align: middle;}
+a img {border: none;}
+li {list-style: none;}
+address, em, i {font-style: normal;}
+a:focus {outline: none}
+button:focus {outline: none}
+
+.wrap {width: 393px; overflow: hidden; margin: 0 auto; color: black; background: #F8F8F8; font-family: 'pretandard', sans-serif;}
+
+/* 공통요소 */
+h2 {font-size: 20px; font-weight: 600; margin-bottom: 16px;}
+section {margin-bottom: 80px; padding: 0px 28px 0 28px; line-height: 1.4; letter-spacing: -0.5px;}
+body {margin: 0; height: 100%; overflow: hidden;}
+button {border: none; background: none; outline: none; box-shadow: none;}
+
+/* header */
+.inner-header  {padding: 54px 28px 0 28px; margin-bottom: 40px; width: 100%; position: relative;}
+.inner-header .icon-box { display: flex; justify-content: space-between;}
+.inner-header .title {position: absolute; left: 50%; top: 66%; transform: translate(-50%); font-size: 20px; font-weight: 600;}
+
+.app {height: 100vh; display: flex; flex-direction: column; overflow: hidden;}
+.content {flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch;}
+
+.select-country {margin-bottom: 16px;}
+.select-country .select-box {display: flex; padding: 12px 22px; background: #fff; border-radius: 50px;}
+.select-country .select-box .country1 {display: flex; font-size: 20px; font-weight: 500;}
+.select-country .select-box .country1 .language {padding: 0 16px;}
+.select-country .select-box .change {margin: 0 auto;}
+
+.translation-box {margin-bottom: 80px;}
+.translation-box .box {width: 100%; height: 164px; background: #fff; border-radius: 10px; padding: 12px;}
+.translation-box .box.one {margin-bottom: 10px;}
+.translation-box .box button {margin-bottom: 20px;}
+.translation-box .box button img {width: 100%; height: 100%;}
+
+.often .sub-tit {font-size: 20px; font-weight: 500; margin-bottom: 16px;}
+.often .sentence-box p {font-size: 14px;  margin-bottom: 7px; background: #fff; width: 100%; height: 50px; border-radius: 10px; display: flex; align-items: center; padding-left: 20px;}
+
+footer {width: 393px; background: #fff; height: 74px; display: flex; align-items: center;  padding: 0 28px; flex-shrink: 0; z-index: 100;} 
+footer .inner-footer {display: flex; font-size: 14px; justify-content: space-between; align-items: center; height: 100%;  margin: 0 auto;}
+footer .inner-footer li {display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 0 50px; color: #aaaaaa;}
+footer .inner-footer li.is-active {color: #F67C1F;}
+footer .inner-footer li:nth-child(1) {padding-left: 0;}
+footer .inner-footer li:nth-child(3) {padding-right: 0;}
+footer .inner-footer img {width: 24px; height: 24px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

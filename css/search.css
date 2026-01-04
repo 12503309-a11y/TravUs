@@ -1,0 +1,41 @@
+
+/* reset */
+* {margin: 0;padding: 0; box-sizing: border-box;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+h1, h2, h3, h4, h5, h6 {font-weight: 700; font-size: inherit;}
+a {color: inherit; text-decoration: inherit;}
+img {vertical-align: middle;}
+a img {border: none;}
+li {list-style: none;}
+address, em, i {font-style: normal;}
+a:focus {outline: none}
+button:focus {outline: none}
+
+.wrap {width: 393px; margin: 0 auto; background: #F8F8F8;  overflow: hidden;} 
+
+/* header */
+.inner-header  {padding: 54px 28px 0 28px; margin-bottom: 40px;}
+.inner-header .icon-box { display: flex; justify-content: space-between;}
+.inner-header .icon-box .search-box { width:309px; height: 44px; background: white; border-radius: 50px; position: relative;}
+.inner-header .icon-box .search-box img {position: absolute; right: 18px; top: 10px;}
+
+/* 공통요소 */
+h2 {font-size: 20px; font-weight: 600; margin-bottom: 16px;}
+section {margin-bottom: 80px; padding: 0px 28px 0 28px;}
+
+/* recent-searches */
+.recent-searches .recent-swiper {width: 100%;display: flex; flex-wrap: nowrap; }
+.recent-searches .recent-swiper p { display: inline-block; border: 1px solid #F67C1F; border-radius: 50px; padding: 8px 20px; text-align: center; white-space: nowrap;}
+
+/* popular-travel-card */
+.popular-travel-card {width: 100%; height: 852px; padding-bottom: 40px;}
+.popular-travel-card h2 {font-size: 20px; font-weight: 600; margin-bottom: 16px;}
+.card-box-swiper {display: flex !important;}
+.card-box-swiper .swiper-slide {width: 280px !important; flex-shrink: 0 !important;display: flex; justify-content: center; align-items: center;}
+.card {width: 280px; height: 280px; border-radius: 14px; overflow: hidden; position: relative; display: flex; justify-content: center; align-items: center;}
+.card1 {background: url("../img/nhatrang.jpg") center/cover no-repeat;}
+.card2 {background: url("../img/itali.jpg") center/cover no-repeat;}
+.card3 {background: url("../img/sping.jpg") center/cover no-repeat;}
+.card .txt-box {color: white; text-align: center; position: absolute; bottom: 30px;width: 100%;}
+.card .txt-box .name {font-size: 24px; font-weight: 600;}
+.card .txt-box .ex {font-size: 16px; font-weight: 400; margin-top: 10px; line-height: 1.4;}
